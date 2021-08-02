@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #fbf3eb;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 17vh;
+}
+
+.nav-list {
+  display: flex;
+}
+
+@media (max-width: 376px) {
+  /* this is for desktop */
+  .nav-list {
+    padding: 15px 15px;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  li {
+    padding: 18px 10px;
+  }
+
+  /* until here is for desktop */
+}

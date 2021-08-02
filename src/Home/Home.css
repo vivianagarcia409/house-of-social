@@ -1,0 +1,21 @@
+.carousel {
+  border: 1px solid red;
+  align-self: center;
+}
+
+.hos-intro {
+  border: 2px solid blue;
+  font-size: xx-large;
+}
+
+.hos-about {
+  height: 47.8vh;
+}
+
+.blue-service {
+  height: 47.8vh;
+}
+
+.bridal-spread {
+  height: 47.8vh;
+}
