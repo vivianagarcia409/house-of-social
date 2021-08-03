@@ -1,14 +1,61 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import {CarouselData} from './CarouselData.js';
 import './Home.css';
 import cake from '../images/HOS-cake.jpeg';
 import blue from '../images/bluespace-spread.jpeg';
 import bridal from '../images/bridal-spread.jpg';
 
 function Home(props) {
+
+    const slides = CarouselData
+    const [current, setCurrent] = useState(0);
+    const length = slides.length;
+    
+
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1)
+    }
+
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1)
+    }
+
+   console.log(current)
+
+    if(!Array.isArray(slides) || slides.length <= 0) {
+        return null
+    }
+
+
+
+
     return (
-        <div>
-            <h1 className="carousel">this will be the photo carousel</h1>
+        <div className="home-container">
+
+            <div className="carousel-container">
+
+            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+
+            {CarouselData.map ((slide,index) => {
+                return (
+                    <div className={index === current ? 'slide active' : 'slide'} 
+                    key = {index}>
+
+                    {index === current && (
+                        <img src={slide.image} className="slide-images" alt='carousel images' />
+                    
+                    )}
+                    
+                    
+                    </div>
+                )
+                
+            })}
+
+            </div>
 
             <div className="hos-intro">
             <b>house of social</b> is a south florida based event planning company 

@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #fbf3eb;
+}
+
+.socials-links {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facebook {
+  height: 6vh;
+}
+
+.instagram {
+  height: 6.4vh;
+}
+
+.copyright {
+  padding: 20px 10px 40px 10px;
+  text-align: center;
+}

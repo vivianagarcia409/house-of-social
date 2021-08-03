@@ -7,9 +7,40 @@
   scroll-behavior: smooth;
 }
 
-.carousel {
-  border: 1px solid red;
-  align-self: center;
+.carousel-container {
+  margin: 0;
+  height: 38vh;
+  display: flex;
+}
+
+.slide-images {
+  width: 100vw;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 32%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 32%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide.active {
+  margin: 0;
 }
 
 b {
@@ -18,8 +49,8 @@ b {
 
 .hos-intro {
   /* border: 2px solid blue; */
-  margin: 10px 10px;
-  padding: 90px 120px;
+  /* margin: 10px 10px; */
+  padding: 0px 120px 80px 120px;
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   text-align: center;

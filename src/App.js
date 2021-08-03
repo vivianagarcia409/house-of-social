@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home/Home.js';
+import {CarouselData} from './Home/CarouselData.js';
 import NavBar from './NavBar/NavBar.js';
 import AboutUs from './AboutUs/AboutUs.js';
 import Contact from './Contact/Contact.js';
@@ -14,7 +15,7 @@ function App() {
   return (
     <div>
       <NavBar />
-
+      <Home slides= {CarouselData} />
       
 
       <Switch>
@@ -27,6 +28,7 @@ function App() {
 
       </Switch>
       
+      <Footer />
       
     </div>
   );
