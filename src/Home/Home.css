@@ -1,11 +1,22 @@
+/* Montserrat thin font */
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  scroll-behavior: smooth;
+}
 .carousel {
   border: 1px solid red;
   align-self: center;
 }
 
 .hos-intro {
-  border: 2px solid blue;
-  font-size: xx-large;
+  /* border: 2px solid blue; */
+  margin: 10px 10px;
+  padding: 90px 120px;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .hos-about {
@@ -18,4 +29,12 @@
 
 .bridal-spread {
   height: 47.8vh;
+}
+
+.reviews-link {
+  font-size: 6em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  background-color: white;
+  opacity: 1;
 }

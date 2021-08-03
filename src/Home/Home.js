@@ -10,10 +10,10 @@ function Home(props) {
             <h1 className="carousel">this will be the photo carousel</h1>
 
             <div className="hos-intro">
-            HOUSE OF SOCIAL IS A SOUTH FLORIDA BASED EVENT PLANNING COMPANY 
-            WHOSE MAIN GOAL IS TO EXCEED OUR CLIENT’S WILDEST DREAMS WHEN 
-            DELIVERING THE BEST SOCIAL EXPERIENCE. FROM BEGINNING TO END, 
-            WE ARE HERE FOR YOU.
+            house of social is a south florida based event planning company 
+            whose main goal is to exceed client’s wildest dreams when 
+            delivering the best social experience. from beginning to end, 
+            we are here for you.
             </div>
 
             <div className="about-homepage">
@@ -31,6 +31,7 @@ function Home(props) {
             <div className="reviews-homepage">
 
                 <img className="bridal-spread" src={bridal} alt="bride-spread" />
+                <h1 className="reviews-link">reviews</h1>
             
             </div>
         
