@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home slides= {CarouselData} />
+     
       
 
       <Switch>
