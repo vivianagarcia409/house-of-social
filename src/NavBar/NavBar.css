@@ -1,16 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 .navbar {
   background-color: #fbf3eb;
   display: flex;
   align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
 .logo-img {
-  height: 17vh;
+  height: 15vh;
 }
 
-.nav-list {
+.link-button {
+  padding-right: 20px;
+  font-size: 2em;
   display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 376px) {

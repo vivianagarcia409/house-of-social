@@ -14,7 +14,7 @@
 }
 
 .slide-images {
-  width: 100vw;
+  width: 96vw;
 }
 
 .right-arrow {
@@ -39,8 +39,15 @@
   user-select: none;
 }
 
+.slide {
+  opacity: 0;
+  transition-duration: 2s ease;
+}
+
 .slide.active {
-  margin: 0;
+  opacity: 1;
+  transition-duration: 2s;
+  transform: scale(1.08);
 }
 
 b {
