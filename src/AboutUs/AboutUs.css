@@ -20,6 +20,44 @@
   font-family: "Comfortaa", cursive;
 }
 
-.lela {
+.individuals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sam-container,
+.lela-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sam-title,
+.lela-title {
+  font-size: 4em;
+  color: #ffb1cb;
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.sam {
   height: 35vh;
+  width: 80vw;
+  align-self: center;
+}
+
+.sam-statement,
+.lela-statement {
+  padding: 50px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: lighter;
+}
+
+.lela {
+  height: 37vh;
+  width: 80vw;
+  align-self: center;
 }
