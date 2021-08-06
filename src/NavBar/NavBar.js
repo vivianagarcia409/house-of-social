@@ -16,11 +16,11 @@ function NavBar(props) {
        
          <div className="links">
 
-         <Link to="/" className="link-button">Home</Link>
-         <Link to="/about-us" className="link-button">About Us</Link>
-         <Link to="/services" className="link-button">Services</Link>
-         <Link to="/reviews" className="link-button">Reviews</Link>
-         <Link to="/contact-us" className="link-button">Contact</Link>
+         <Link to="/" className="link-button">home</Link>
+         <Link to="/about-us" className="link-button">about us</Link>
+         <Link to="/services" className="link-button">services</Link>
+         <Link to="/reviews" className="link-button">reviews</Link>
+         <Link to="/contact-us" className="link-button">contact</Link>
 
              </div>
 
