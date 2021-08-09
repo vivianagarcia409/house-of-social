@@ -19,9 +19,9 @@
 
 .right-arrow {
   position: absolute;
-  top: 32%;
+  top: 35%;
   right: 32px;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: white;
   z-index: 10;
   cursor: pointer;
@@ -30,9 +30,9 @@
 
 .left-arrow {
   position: absolute;
-  top: 32%;
+  top: 35%;
   left: 32px;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: white;
   z-index: 10;
   cursor: pointer;
@@ -55,10 +55,8 @@ b {
 }
 
 .hos-intro {
-  /* border: 2px solid blue; */
-  /* margin: 10px 10px; */
-  padding: 0px 120px 80px 120px;
-  font-size: 2em;
+  padding: 0px 10px 60px 10px;
+  font-size: 1.1em;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
@@ -88,17 +86,17 @@ b {
   position: absolute;
   text-decoration: none;
   color: black;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 10em;
+  font-size: 4em;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   background-color: white;
   opacity: 0.7;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   /* this is for desktop */
 
   .carousel-container {
@@ -150,11 +148,8 @@ b {
   }
 
   .hos-intro {
-    /* border: 2px solid blue; */
-    /* margin: 10px 10px; */
-    /* padding: 0px 120px 80px 120px; */
-    /* position: absolute; */
-    font-size: 1em;
+    padding: 40px 150px 60px 150px;
+    font-size: 1.5em;
     font-family: "Montserrat", sans-serif;
     text-align: center;
   }
@@ -170,16 +165,10 @@ b {
     position: relative;
   }
 
-  .hos-about {
-    height: 47.8vh;
-  }
-
-  .blue-service {
-    height: 47.8vh;
-  }
-
+  .hos-about,
+  .blue-service,
   .bridal-spread {
-    height: 47.8vh;
+    height: 40vh;
   }
 
   .about-link,
@@ -188,10 +177,10 @@ b {
     position: absolute;
     text-decoration: none;
     color: black;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4.5em;
+    font-size: 3em;
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
     background-color: white;

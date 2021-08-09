@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .navbar {
+  padding: 10px;
   background-color: #fbf3eb;
   display: flex;
   align-items: flex-end;
@@ -9,12 +10,13 @@
 }
 
 .logo-img {
-  height: 16vh;
+  padding: 20px;
+  height: 14vh;
 }
 
 .link-button {
-  padding-right: 20px;
-  font-size: 2em;
+  padding-right: 10px;
+  font-size: 1.2em;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -26,8 +28,12 @@
   /* this is for desktop */
   .navbar {
     padding: 10px 10px;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-img {
+    height: 25vh;
   }
 
   li {

@@ -11,15 +11,15 @@
 }
 
 .services-title {
-  font-size: 6em;
+  font-size: 3.2em;
   margin: 40px;
   color: #77d1c6;
   font-weight: 999;
 }
 
 .offer {
-  font-size: 2.5em;
-  padding: 0px 55px 55px 55px;
+  font-size: 1.8em;
+  padding: 0px 30px 40px 30px;
   text-align: center;
   font-style: italic;
 }
@@ -28,10 +28,10 @@
 .final-dayof,
 .full-service {
   margin: 30px;
-  padding: 30px 60px;
-  font-size: 2.2em;
+  padding: 30px 10px;
+  font-size: 1.5em;
   text-align: center;
-  border: 15px dotted #ffd04a;
+  border: 10px dotted #ffd04a;
   font-weight: lighter;
 }
 
@@ -39,11 +39,71 @@
 .final-title,
 .full-title {
   margin: 0px 0px 25px 0px;
-  font-size: 2.5em;
+  font-size: 1.9em;
   text-align: center;
   color: #ffb1cb;
 }
 
 .description {
   line-height: 1.4;
+}
+
+@media (min-width: 500px) {
+  /* this is for desktop */
+
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .all-services {
+    display: flex;
+  }
+
+  .services-title {
+    font-size: 4.5em;
+    margin: 40px;
+    color: #77d1c6;
+    font-weight: 999;
+  }
+
+  .offer {
+    font-size: 1.7em;
+    padding: 0px 55px 55px 55px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .day-of,
+  .day-of-title {
+    align-items: center;
+  }
+
+  .day-of,
+  .final-dayof,
+  .full-service {
+    margin: 30px;
+    padding: 30px 60px;
+    font-size: 1em;
+    text-align: center;
+    border: 15px dotted #ffd04a;
+    font-weight: lighter;
+  }
+
+  .day-of-title,
+  .final-title,
+  .full-title {
+    margin: 0px 0px 25px 0px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffb1cb;
+  }
+
+  .description {
+    line-height: 1.4;
+  }
 }

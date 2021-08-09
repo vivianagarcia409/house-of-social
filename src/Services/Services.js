@@ -4,6 +4,7 @@ import './Services.css';
 function Services(props) {
     return (
         <div className="services-container">
+
             <div className="services-title">
                 - services -
             </div>
@@ -11,6 +12,10 @@ function Services(props) {
             <div className="offer">
                 we offer three tiers of services to help build your dream event
             </div>
+
+            <div className="all-services">
+
+            
 
             <div className="day-of">
 
@@ -52,6 +57,8 @@ function Services(props) {
                 elements including floral & decor, invitation, etc. + team of (4) for day of 
                 coordination
                 </div>
+
+            </div>
 
             </div>
         </div>

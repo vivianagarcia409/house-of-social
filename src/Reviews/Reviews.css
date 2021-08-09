@@ -10,7 +10,7 @@
 
 .reviews-title {
   padding: 30px;
-  font-size: 5em;
+  font-size: 3.3em;
   font-family: "Comfortaa", cursive;
   color: #94d894;
   font-weight: 950;
@@ -23,7 +23,8 @@
 }
 
 .proposal-img {
-  height: 30.5vh;
+  height: 34vh;
+  width: 100vw;
   position: relative;
   text-align: center;
   opacity: 0.7;
@@ -31,21 +32,23 @@
 
 .proposal-review {
   position: absolute;
-  top: 37.5%;
+  top: 52.5%;
   left: 30%;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   transform: translate(-20%, -50%);
   background-color: white;
   opacity: 0.85;
-  font-size: 1.3em;
+  font-size: 0.5em;
   color: black;
   font-weight: 400;
   line-height: 1.6;
 }
 
 .carly-img {
-  height: 30.5vh;
+  height: 34vh;
+  width: 100vw;
+  padding-bottom: 20px;
   position: relative;
   text-align: center;
   opacity: 0.7;
@@ -53,15 +56,81 @@
 
 .kristen-review {
   position: absolute;
-  top: 70%;
+  top: 88%;
   left: 30%;
   padding-left: 20px;
   padding-right: 20px;
   transform: translate(-20%, -1%);
   background-color: white;
   opacity: 0.85;
-  font-size: 1.3em;
+  font-size: 0.8em;
   color: black;
   font-weight: 400;
   line-height: 1.6;
+}
+
+@media (min-width: 500px) {
+  /* this is for desktop */
+
+  .reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reviews-title {
+    padding: 30px;
+    font-size: 3em;
+    font-family: "Comfortaa", cursive;
+    color: #94d894;
+    font-weight: 950;
+  }
+
+  .breakpoint {
+    font-size: 5em;
+    color: #94d894;
+    font-weight: 950;
+  }
+
+  .proposal-img {
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+  .proposal-review {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    padding: 5px 200px;
+    transform: translate(-20%, -50%);
+    background-color: white;
+    opacity: 0.85;
+    font-size: 0.8em;
+    color: black;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  .carly-img {
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+  .kristen-review {
+    position: absolute;
+    top: 112%;
+    left: 30%;
+    padding: 10px 155px;
+    transform: translate(-20%, -1%);
+    background-color: white;
+    opacity: 0.85;
+    font-size: 0.8em;
+    color: black;
+    font-weight: 400;
+    line-height: 1.6;
+  }
 }
