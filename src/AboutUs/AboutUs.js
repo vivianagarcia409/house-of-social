@@ -56,15 +56,11 @@ function AboutUs(props) {
                         </h1>
                         <img src={lela} className="lela" alt="lela" />
                     <div className="lela-statement">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis 
-                    nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in 
-                    reprehenderit in voluptate velit esse cillum dolore 
-                    eu fugiat nulla pariatur. Excepteur sint occaecat 
-                    cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum."
+                    “When the pandemic put the events industry on hold, 
+                    I needed an outlet for my love of planning. It’s been 
+                    a passion of mine for as long as I can remember and 
+                    house of social became the space where I could pour 
+                    my heart into what I love the most.”
                     </div>
                 </div> 
         

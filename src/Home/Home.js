@@ -34,58 +34,54 @@ function Home(props) {
     return (
         <div className="home-container">
 
-            <div className="carousel-container">
+                <div className="carousel-container">
 
-            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+                    <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+                    <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
 
-            {CarouselData.map ((slide,index) => {
-                return (
-                    <div className={index === current ? 'slide active' : 'slide'} 
-                    key = {index}>
+                    {CarouselData.map ((slide,index) => {
+                        return (
+                            <div className={index === current ? 'slide active' : 'slide'} 
+                            key = {index}>
 
-                    {index === current && (
-                        <img src={slide.image} className="slide-images" alt='carousel images' />
-                    
-                    )}
-                    
+                            {index === current && (
+                                <img src={slide.image} className="slide-images" alt='carousel images' />
+                            
+                            )}
+                            </div> )
+                    })}
+                </div>
+
+                        <div className="hos-intro">
+                        <b>house of social</b> is a south florida based event planning company 
+                        whose main goal is to exceed client’s wildest dreams when 
+                        delivering the best social experience. from beginning to end, 
+                        we are here for you.
+                        </div>
+
+                <div className="about-links-container">
+                    <div className="about-homepage">
+
+                        <img className="hos-about" src={cake} alt="hos-about" />
+                        <Link to="/about-us" className="about-link">about</Link>
+                    </div>
+
+                    <div className="services-homepage">
+
+                        <img className="blue-service" src={blue} alt="blue-service" />
+                        <Link to="/services" className="services-link">services</Link>
+
+                    </div>
+
+                    <div className="reviews-homepage">
+
+                        <img className="bridal-spread" src={bridal} alt="bride-spread" />
+                        <Link to="/reviews" className="reviews-link">reviews</Link>
                     
                     </div>
-                )
                 
-            })}
-
-            </div>
-
-            <div className="hos-intro">
-            <b>house of social</b> is a south florida based event planning company 
-            whose main goal is to exceed client’s wildest dreams when 
-            delivering the best social experience. from beginning to end, 
-            we are here for you.
-            </div>
-
-            <div className="about-homepage">
-
-                <img className="hos-about" src={cake} alt="hos-about" />
-                <Link to="/about-us" className="about-link">about</Link>
-            </div>
-
-            <div className="services-homepage">
-
-                <img className="blue-service" src={blue} alt="blue-service" />
-                <Link to="/services" className="services-link">services</Link>
-
-            </div>
-
-            <div className="reviews-homepage">
-
-                <img className="bridal-spread" src={bridal} alt="bride-spread" />
-                <Link to="/reviews" className="reviews-link">reviews</Link>
-            
-            </div>
-        
-        
-        
+                
+                </div>
         
         
         

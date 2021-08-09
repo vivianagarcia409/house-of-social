@@ -97,3 +97,104 @@ b {
   background-color: white;
   opacity: 0.7;
 }
+
+@media (min-width: 500px) {
+  /* this is for desktop */
+
+  .carousel-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slide.active {
+    height: 400px;
+  }
+
+  .slider li {
+    height: 400px;
+  }
+
+  #widget-block {
+    margin-top: 400px;
+  }
+
+  .slide-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 60vw;
+  }
+
+  .right-arrow {
+    position: relative;
+    top: 45%;
+    right: -775px;
+    font-size: 2rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .left-arrow {
+    position: relative;
+    top: 45%;
+    left: 75px;
+    font-size: 2rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .hos-intro {
+    /* border: 2px solid blue; */
+    /* margin: 10px 10px; */
+    /* padding: 0px 120px 80px 120px; */
+    /* position: absolute; */
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  .about-links-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about-homepage,
+  .services-homepage,
+  .reviews-homepage {
+    position: relative;
+  }
+
+  .hos-about {
+    height: 47.8vh;
+  }
+
+  .blue-service {
+    height: 47.8vh;
+  }
+
+  .bridal-spread {
+    height: 47.8vh;
+  }
+
+  .about-link,
+  .services-link,
+  .reviews-link {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    opacity: 0.7;
+  }
+}

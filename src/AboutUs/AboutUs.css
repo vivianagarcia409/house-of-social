@@ -61,3 +61,65 @@
   width: 80vw;
   align-self: center;
 }
+
+@media (min-width: 500px) {
+  /* this is for desktop */
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meetus {
+    text-align: center;
+    font-size: 5em;
+    color: #ffb1cb;
+    font-weight: bolder;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .lelasam {
+    height: 60vh;
+  }
+
+  .about-them {
+    text-align: center;
+    padding: 28px;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .individuals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .sam-title,
+  .lela-title {
+    font-size: 2em;
+    color: #ffb1cb;
+    font-family: "Comfortaa", cursive;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .sam {
+    height: 40vh;
+    width: 28vw;
+    align-self: center;
+  }
+
+  .sam-statement,
+  .lela-statement {
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    font-weight: lighter;
+  }
+
+  .lela {
+    height: 39vh;
+    width: 27vw;
+    align-self: center;
+  }
+}
